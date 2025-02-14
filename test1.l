@@ -9,7 +9,6 @@ int palabras = 0;
 int lineas = 0;
 %}
 
-/* Contar palabras (secuencias de letras) | Contar líneas y caracteres de salto de línea | Contar cualquier otro carácter */
 %%
 
 
