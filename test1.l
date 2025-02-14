@@ -9,21 +9,20 @@ int palabras = 0;
 int lineas = 0;
 %}
 
+/* Contar palabras (secuencias de letras) | Contar líneas y caracteres de salto de línea | Contar cualquier otro carácter */
 %%
 
-/* Contar palabras (secuencias de letras) */
+
 [a-zA-Z]+ { 
     palabras++; 
     caracteres += strlen(yytext); 
 }
 
-/* Contar líneas y caracteres de salto de línea */
 \n { 
     caracteres++; 
     lineas++; 
 }
 
-/* Contar cualquier otro carácter */
 . { 
     caracteres++; 
 }
