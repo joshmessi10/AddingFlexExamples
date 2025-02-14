@@ -21,11 +21,7 @@
 "water" { printf("agua"); }
 "food" { printf("comida"); }
 "day" { printf("día"); }
-
-
-"a" { printf("un"); }
-"an" { printf("un"); }
-"the" { printf("el"); }
+"family" {printf("familia");}
 
 "beautiful" { printf("hermoso"); }
 "big" { printf("grande"); }
@@ -45,26 +41,6 @@
 "love" { printf("amo"); }
 "hate" { printf("odio"); }
 "run" { printf("corro"); }
-"walk" { printf("camino"); }
-
-
-"I" { printf("yo"); }
-"you" { printf("tú"); }
-"he" { printf("él"); }
-"she" { printf("ella"); }
-"it" { printf("eso"); }
-"we" { printf("nosotros"); }
-"they" { printf("ellos"); }
-"me" { printf("mí"); }
-"him" { printf("él"); }
-"her" { printf("ella"); }
-"us" { printf("nosotros"); }
-"them" { printf("ellos"); }
-"my" { printf("mi"); }
-"your" { printf("tu"); }
-"his" { printf("su"); }
-"our" { printf("nuestro"); }
-"their" { printf("su"); }
 
 
 "and" { printf("y"); }
