@@ -8,75 +8,72 @@
 
 "colour" { printf("color"); }
 "flavour" { printf("sabor"); }
-"clever" { printf("listo"); }
-"smart" { printf("inteligente"); }
-"conservative" { printf("conservador"); }
-"hello" { printf("hola"); }
-"world" { printf("mundo"); }
-"good" { printf("bueno"); }
-"bad" { printf("malo"); }
+"friend" { printf("amigo"); }
 "morning" { printf("mañana"); }
-"afternoon" { printf("tarde"); }
-"night" { printf("noche"); }
-"day" { printf("día"); }
-"man" { printf("hombre"); }
-"woman" { printf("mujer"); }
+"sun" { printf("sol"); }
+"mountain" { printf("montaña"); }
 "boy" { printf("niño"); }
 "girl" { printf("niña"); }
-"friend" { printf("amigo"); }
-"house" { printf("casa"); }
+"game" { printf("juego"); }
+"river" { printf("río"); }
 "dog" { printf("perro"); }
 "cat" { printf("gato"); }
 "water" { printf("agua"); }
 "food" { printf("comida"); }
-"happy" { printf("feliz"); }
-"sad" { printf("triste"); }
-"yes" { printf("sí"); }
-"no" { printf("no"); }
-"please" { printf("por favor"); }
-"thanks" { printf("gracias"); }
-"book" { printf("libro"); }
-"school" { printf("escuela"); }
-"car" { printf("coche"); }
-"bicycle" { printf("bicicleta"); }
-"road" { printf("camino"); }
-"work" { printf("trabajo"); }
-"money" { printf("dinero"); }
-"love" { printf("amor"); }
-"hate" { printf("odio"); }
-"music" { printf("música"); }
-"movie" { printf("película"); }
-"game" { printf("juego"); }
-"computer" { printf("computadora"); }
-"phone" { printf("teléfono"); }
-"table" { printf("mesa"); }
-"chair" { printf("silla"); }
-"window" { printf("ventana"); }
-"door" { printf("puerta"); }
-"city" { printf("ciudad"); }
-"country" { printf("país"); }
-"sea" { printf("mar"); }
-"river" { printf("río"); }
-"mountain" { printf("montaña"); }
-"sun" { printf("sol"); }
-"moon" { printf("luna"); }
-"star" { printf("estrella"); }
-"rain" { printf("lluvia"); }
-"snow" { printf("nieve"); }
-"wind" { printf("viento"); }
-"cold" { printf("frío"); }
-"hot" { printf("caliente"); }
-"big" { printf("grande"); }
-"small" { printf("pequeño"); }
-"fast" { printf("rápido"); }
-"slow" { printf("lento"); }
-"old" { printf("viejo"); }
-"young" { printf("joven"); }
-"new" { printf("nuevo"); }
+"day" { printf("día"); }
+
+
+"a" { printf("un"); }
+"an" { printf("un"); }
+"the" { printf("el"); }
+
 "beautiful" { printf("hermoso"); }
-"ugly" { printf("feo"); }
-"easy" { printf("fácil"); }
-"hard" { printf("difícil"); }
+"big" { printf("grande"); }
+"happy" { printf("feliz"); }
+"clever" { printf("listo"); }
+"good" { printf("buena"); }
+"nice" { printf("agradable"); }
+"smart" { printf("elegante"); }
+"conservative" { printf("conservador"); }
+
+
+"saw" { printf("vi"); }
+"played" { printf("jugaron"); }
+"was" { printf("estaba"); }
+"drank" { printf("bebieron"); }
+"ate" { printf("comieron"); }
+"love" { printf("amo"); }
+"hate" { printf("odio"); }
+"run" { printf("corro"); }
+"walk" { printf("camino"); }
+
+
+"I" { printf("yo"); }
+"you" { printf("tú"); }
+"he" { printf("él"); }
+"she" { printf("ella"); }
+"it" { printf("eso"); }
+"we" { printf("nosotros"); }
+"they" { printf("ellos"); }
+"me" { printf("mí"); }
+"him" { printf("él"); }
+"her" { printf("ella"); }
+"us" { printf("nosotros"); }
+"them" { printf("ellos"); }
+"my" { printf("mi"); }
+"your" { printf("tu"); }
+"his" { printf("su"); }
+"our" { printf("nuestro"); }
+"their" { printf("su"); }
+
+
+"and" { printf("y"); }
+"or" { printf("o"); }
+"but" { printf("pero"); }
+"because" { printf("porque"); }
+"near" { printf("cerca de"); }
+"Hello" { printf("Hola"); }
+"This" { printf("Este"); }
 
 . { printf("%s", yytext); }
 
@@ -86,3 +83,4 @@ int main() {
     yylex();
     return 0;
 }
+
